@@ -3,6 +3,11 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Ignore project build output folders (root)
+/bin/
+/obj/
+
+
 # dotenv files
 .env
 
